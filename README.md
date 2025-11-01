@@ -75,9 +75,3 @@ PRs accepted. Bugs accepted. Rage quits accepted (open an issue if you need a th
 MIT — steal it, ship it, improve it, suffer less.
 
 ---
-
-## TL;DR
-
-`import { pain } from 'react'` is a fast, minimal starter with a sense of humor. Clone it. Break it. Make something dope.
-
-```
