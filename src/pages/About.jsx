@@ -6,14 +6,14 @@ function About() {
   const [age,setAge] = useState(18);
 
   const skillItems = [
-    { link: '#', text: 'C/C++', image: 'https://i.pinimg.com/1200x/01/67/a6/0167a67a0a9259a17c1b7b536247d9a0.jpg' },
-    { link: '#', text: 'JavaScript', image: 'https://i.pinimg.com/736x/af/b7/cc/afb7cc78a074c1117a79ae76e09332b8.jpg' },
-    { link: '#', text: 'React.js', image: 'https://i.pinimg.com/736x/a9/fe/2f/a9fe2f5d2fe51a08531f9350c8e449cc.jpg' },
-    { link: '#', text: 'Node.js', image: 'https://i.pinimg.com/1200x/85/0c/9e/850c9e624ef14617c49a9a66291804c0.jpg' },
-    { link: '#', text: 'Express.js', image: 'https://i.pinimg.com/736x/ed/59/53/ed59533d5b25c3522f86f4ef78d2a7ab.jpg' },
-    { link: '#', text: 'MongoDB', image: 'https://i.pinimg.com/736x/ba/94/53/ba945315f07b2bb926633746ce959eaf.jpg' },
-    { link: '#', text: 'Linux', image: 'https://i.pinimg.com/1200x/13/7b/d1/137bd1b8143bdf67af794c7c5b83f4f0.jpg' },
-    { link: '#', text: 'Git & GitHub', image: 'https://i.pinimg.com/1200x/bb/57/22/bb572239250955954ac781173ff678ec.jpg' },
+    { link: 'https://www.w3schools.com/cpp/', text: 'C/C++', image: 'https://i.pinimg.com/1200x/01/67/a6/0167a67a0a9259a17c1b7b536247d9a0.jpg' },
+    { link: 'https://www.w3schools.com/js/', text: 'JavaScript', image: 'https://i.pinimg.com/736x/af/b7/cc/afb7cc78a074c1117a79ae76e09332b8.jpg' },
+    { link: 'https://www.w3schools.com/react/', text: 'React.js', image: 'https://i.pinimg.com/736x/a9/fe/2f/a9fe2f5d2fe51a08531f9350c8e449cc.jpg' },
+    { link: 'https://www.w3schools.com/nodejs/', text: 'Node.js', image: 'https://i.pinimg.com/1200x/85/0c/9e/850c9e624ef14617c49a9a66291804c0.jpg' },
+    { link: 'https://www.w3schools.com/nodejs/nodejs_express.asp', text: 'Express.js', image: 'https://i.pinimg.com/736x/ed/59/53/ed59533d5b25c3522f86f4ef78d2a7ab.jpg' },
+    { link: 'https://www.w3schools.com/mongodb/', text: 'MongoDB', image: 'https://i.pinimg.com/736x/ba/94/53/ba945315f07b2bb926633746ce959eaf.jpg' },
+    { link: 'https://www.w3schools.com/bash/', text: 'Linux', image: 'https://i.pinimg.com/1200x/13/7b/d1/137bd1b8143bdf67af794c7c5b83f4f0.jpg' },
+    { link: 'https://www.w3schools.com/git/', text: 'Git & GitHub', image: 'https://i.pinimg.com/1200x/bb/57/22/bb572239250955954ac781173ff678ec.jpg' },
   ];
 
   return (
