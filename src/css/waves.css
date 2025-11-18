@@ -1,0 +1,10 @@
+.wave-anim path {
+  animation: wave 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes wave {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(10px); }
+  100% { transform: translateY(0px); }
+}

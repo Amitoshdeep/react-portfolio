@@ -11,7 +11,7 @@
 }
 
 .starterDiv{
-  @apply min-h-[100dvh] flex items-center justify-center text-4xl;
+  @apply min-h-[100dvh] flex justify-center text-4xl;
 }
 
 .mainDiv{

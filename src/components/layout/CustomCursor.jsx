@@ -20,7 +20,7 @@ export default function CustomCursor() {
 
       gsap.to(big, {
         x: e.clientX,
-        y: e.clientY - 1,
+        y: e.clientY - 1, // - 1 for a slight up... in big circle
         duration: 0.45,
         ease: "power3.out",
       });
@@ -34,7 +34,7 @@ export default function CustomCursor() {
     hoverables.forEach((el) => {
       el.addEventListener("mouseenter", () => {
         gsap.to(big, {
-          scale: 7.5,
+          scale: 4.5,
           duration: 0.2,
           ease: "power3.out",
         });
