@@ -24,7 +24,7 @@ function About() {
       <div className='min-h-[80dvh] h-max flex gap-4 items-center text-3xl pl-24'>
 
         {/* Paragraph div */}
-        <div className='flex flex-col gap-10 w-1/2 h-max hoverable'>
+        <div className='flex flex-col gap-10 w-1/2 h-max hoverable relative z-10'>
 
           <p className='w-5/6'>
             I'm just a {age} year old kid with a keyboard, a sketchbook, and an endless curiosity for
@@ -41,7 +41,7 @@ function About() {
 
         {/* Image Div */}
         <div>
-
+        {/* <iframe src='https://my.spline.design/robotfollowcursorforlandingpagemc-T8Hys5tShB1Wn8THjIhbYlZm/' frameborder='0' width='100%' height='100%'></iframe> */}
         </div>
 
       </div>
