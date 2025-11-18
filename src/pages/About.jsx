@@ -45,7 +45,7 @@ function About() {
       </div>
 
       {/* Skills */}
-      <div className='relative h-[800px] w-full z-[99999]'>
+      <div className='relative h-[800px] w-full'>
         <FlowingMenu items={skillItems} />
       </div>
 
