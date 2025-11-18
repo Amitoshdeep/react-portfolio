@@ -5,6 +5,23 @@
   --font-poppins: "Poppins",sans-serif;
 }
 
+/* extend theme */
+@theme {
+  --translate-101: 101%;
+
+  --animate-marquee: marquee 15s linear infinite;
+}
+
+/* keyframes go here */
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 /*  */
 *{
   @apply cursor-none;

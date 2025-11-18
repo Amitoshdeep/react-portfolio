@@ -15,7 +15,7 @@ export default function CustomCursor() {
 
     // Mouse move
     const move = (e) => {
-      gsap.to(big, { x: e.clientX, y: e.clientY, duration: 0.3 });
+      gsap.to(big, { x: e.clientX, y: e.clientY -1, duration: 0.3 });
       gsap.to(small, { x: e.clientX, y: e.clientY, duration: 0.1 });
     };
 
