@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-
+import Spline from "@splinetool/react-spline";
 import FlowingMenu from '../components/reactbits/FlowingMenu';
 
 function About() {
-  const [age,setAge] = useState(18);
+  const [age, setAge] = useState(18);
 
   const skillItems = [
     { link: 'https://www.w3schools.com/cpp/', text: 'C/C++', image: 'https://i.pinimg.com/1200x/01/67/a6/0167a67a0a9259a17c1b7b536247d9a0.jpg' },
@@ -17,37 +17,35 @@ function About() {
   ];
 
   return (
-    <div className='bg-black text-white min-h-screen relative
-    flex flex-col items-center justify-center
-    '>
+    <div className='bg-black text-white min-h-screen relative flex flex-col items-center justify-center'>
 
-      <div className='min-h-[80dvh] h-max flex gap-4 items-center text-3xl pl-24'>
+      <div className='min-h-[80dvh] h-max flex gap-4 items-center text-3xl pl-24 relative'>
 
-        {/* Paragraph div */}
+        {/* Paragraph Section */}
         <div className='flex flex-col gap-10 w-1/2 h-max hoverable relative z-10'>
-
           <p className='w-5/6'>
-            I'm just a {age} year old kid with a keyboard, a sketchbook, and an endless curiosity for
-            the world. I code and develop softwares, and design like every pixel tells a story.
+            I'm just a {age} year old kid with a keyboard, a sketchbook, and an endless curiosity for the world.
+            I code and develop softwares, and design like every pixel tells a story.
           </p>
 
           <p>
-            Tech isn't just what i do - it's how I see the world, a playground where I build , break, and reinvent.
-            Adaptable? Always Enthusiast? Absolutely.
+            Tech isn't just what I do — it's how I see the world,
+            a playground where I build, break, and reinvent.
+            Adaptable? Always. Enthusiast? Absolutely.
           </p>
-
         </div>
 
-
-        {/* Image Div */}
-        <div>
-        {/* <iframe src='https://my.spline.design/robotfollowcursorforlandingpagemc-T8Hys5tShB1Wn8THjIhbYlZm/' frameborder='0' width='100%' height='100%'></iframe> */}
+        {/* Spline Section */}
+        <div className='w-1/2 h-[1200px] absolute right-0'>
+          <Spline
+            scene="https://prod.spline.design/AwvODIYEjWz71Rs2/scene.splinecode"
+          />
         </div>
 
       </div>
 
-    {/* Skills Menu */}
-      <div className='relative h-[800px] w-full'>
+      {/* Skills */}
+      <div className='relative h-[800px] w-full z-[99999]'>
         <FlowingMenu items={skillItems} />
       </div>
 
@@ -55,4 +53,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
