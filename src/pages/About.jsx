@@ -36,7 +36,7 @@ function About() {
         </div>
 
         {/* Spline Section */}
-        <div className='w-1/2 h-[1200px] absolute right-0'>
+        <div className='w-1/2 h-[800px] absolute right-0'>
           <Spline
             scene="https://prod.spline.design/AwvODIYEjWz71Rs2/scene.splinecode"
           />
