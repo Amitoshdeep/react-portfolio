@@ -2,8 +2,8 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>
-      <div className='starterDiv'>
+    <div className='starterDiv'>
+      <div className='hoverable'>
         App
       </div>
     </div>

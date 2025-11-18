@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+
+@theme{
+  --font-poppins: "Poppins",sans-serif;
+}
+
+/*  */
+*{
+  @apply cursor-none;
+}
+
 .starterDiv{
   @apply min-h-[100dvh] flex items-center justify-center text-4xl;
 }
