@@ -5,5 +5,5 @@
 }
 
 .mainDiv{
-  @apply bg-black text-white min-h-[100dvh] w-full overflow-x-hidden;
+  @apply min-h-[100dvh] w-full overflow-x-hidden;
 }

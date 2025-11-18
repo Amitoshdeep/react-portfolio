@@ -2,15 +2,11 @@ import React from 'react'
 
 function Home() {
   return (
-    <>
+    <div>
       <div className='starterDiv'>
         App
       </div>
-
-      <div className='starterDiv'>
-        Yoloo
-      </div>
-    </>
+    </div>
   )
 }
 
