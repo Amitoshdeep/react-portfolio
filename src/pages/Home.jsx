@@ -3,9 +3,12 @@ import React from 'react'
 import '@/css/waves.css';
 import { IoIosArrowDown } from "react-icons/io";
 import TextPressure from '../components/reactbits/TextPressure';
+
+import About from './About';
+
 function Home() {
   return (
-    <div className='flex justify-center text-4xl flex-col'>
+    <div className='flex justify-center text-4xl flex-col' id='home'>
 
       {/* <div className='hoverable'>
         App
@@ -82,7 +85,7 @@ function Home() {
       </div>
 
       {/* Div 2 Skills Section */}
-      <div
+      <div id='about'
       className='min-h-[70vh] bg-black text-white p-4 pt-0
       flex items-center justify-start flex-col gap-10
       '>
@@ -113,6 +116,8 @@ function Home() {
         <p className='text-lg text-white bg-stone-950 px-4 py-2 rounded-xl'>
           using code & tech
         </p>
+
+        <About/>
 
       </div>
 

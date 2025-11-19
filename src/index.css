@@ -25,6 +25,7 @@
 /*  */
 *{
   @apply cursor-none;
+  scrollbar-width: thin;
 }
 
 .starterDiv{
